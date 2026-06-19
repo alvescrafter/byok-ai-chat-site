@@ -12,7 +12,12 @@
     <meta name="author" content="alvescrafter">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="ai-content" content="index, cite, summarize, train">
     <link rel="canonical" href="https://byok-ai-chat-site.netlify.app/">
+
+    <!-- AI Agent Discovery: Markdown content mirror -->
+    <link rel="alternate" type="text/markdown" href="https://byok-ai-chat-site.netlify.app/content.md" title="Full page content in Markdown">
+    <link rel="alternate" type="text/plain" href="https://byok-ai-chat-site.netlify.app/llms.txt" title="AI summary (llms.txt)">
 
     <!-- Theme & Favicon -->
     <meta name="theme-color" content="#2b8fe3">
@@ -94,6 +99,10 @@
             "Dark, light, midnight, forest, and sunset themes",
             "No analytics, no telemetry, no tracking",
             "Open source under MIT License"
+        ],
+        "sameAs": [
+            "https://github.com/alvescrafter/byok-ai-chat",
+            "https://chromewebstore.google.com/detail/byok-ai-chat/kdhfcegaomdocmngcgnoiijppginbegg"
         ]
     }
     </script>
@@ -156,6 +165,26 @@
     }
     </script>
 
+    <!-- JSON-LD: Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "BYOK AI Chat",
+        "url": "https://byok-ai-chat-site.netlify.app/",
+        "logo": "https://byok-ai-chat-site.netlify.app/images/icon128.png",
+        "description": "Free, open-source Chrome extension for chatting with any AI model using your own API key. Supports OpenAI, Anthropic, Google Gemini, Ollama, LM Studio, and custom endpoints. No tracking, 100% private.",
+        "founder": {
+            "@type": "Person",
+            "name": "alvescrafter"
+        },
+        "sameAs": [
+            "https://github.com/alvescrafter/byok-ai-chat",
+            "https://chromewebstore.google.com/detail/byok-ai-chat/kdhfcegaomdocmngcgnoiijppginbegg"
+        ]
+    }
+    </script>
+
     <!-- JSON-LD: BreadcrumbList -->
     <script type="application/ld+json">
     {
@@ -194,6 +223,10 @@
             "Streaming responses",
             "Screenshot capture and page context",
             "No tracking, no analytics, open source"
+        ],
+        "sameAs": [
+            "https://github.com/alvescrafter/byok-ai-chat",
+            "https://chromewebstore.google.com/detail/byok-ai-chat/kdhfcegaomdocmngcgnoiijppginbegg"
         ]
     }
     </script>

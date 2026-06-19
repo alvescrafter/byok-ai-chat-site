@@ -1,0 +1,33 @@
+# Netlify _headers file — AI Agent Discovery HTTP headers
+# https://docs.netlify.com/routing/headers/
+
+# Global headers for all routes
+/*
+  Link: </llms.txt>; rel="describedby"; type="text/plain", </content.md>; rel="alternate"; type="text/markdown", </sitemap.xml>; rel="sitemap"; type="application/xml", </AGENTS.md>; rel="describedby"; type="text/markdown", </robots.txt>; rel="describedby"; type="text/plain"
+  Content-Signal: ai-train=yes, search=yes, ai-input=yes
+  X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+# Serve Markdown files with correct MIME type
+/*.md
+  Content-Type: text/markdown; charset=utf-8
+
+# Serve llms.txt as text/plain
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+
+# Serve ai.txt as text/plain
+/ai.txt
+  Content-Type: text/plain; charset=utf-8
+
+# Serve brand.txt as text/plain
+/brand.txt
+  Content-Type: text/plain; charset=utf-8
+
+# Serve ai.json with correct MIME type
+/ai.json
+  Content-Type: application/json; charset=utf-8
+
+# Serve .well-known JSON files
+/.well-known/*
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *

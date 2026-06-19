@@ -1,0 +1,32 @@
+# BYOK AI Chat
+
+> BYOK AI Chat is a free, open-source Chrome extension that lets users chat with any AI model from Chrome's side panel. Users bring their own API key (BYOK) for OpenAI, Anthropic, Google Gemini, or connect to local AI models via Ollama and LM Studio. No analytics, no telemetry, no tracking — API keys and conversations stay on the user's device. MIT licensed.
+
+## Core Pages
+- [Home](https://byok-ai-chat-site.netlify.app/): Product overview, features, providers, how-it-works, FAQ
+- [Install on Chrome Web Store](https://chromewebstore.google.com/detail/byok-ai-chat/kdhfcegaomdocmngcgnoiijppginbegg): Official Chrome Web Store listing
+- [GitHub Repository](https://github.com/alvescrafter/byok-ai-chat): Full source code, issues, MIT License
+- [Privacy Policy](https://byok-ai-chat-site.netlify.app/PRIVACY.md): Data handling and privacy commitments
+
+## Full Content
+- [Complete page content in Markdown](https://byok-ai-chat-site.netlify.app/content.md): Full text of the landing page for AI ingestion
+
+## Sitemap
+- [Markdown sitemap](https://byok-ai-chat-site.netlify.app/sitemap.md): Site structure in Markdown
+- [XML sitemap](https://byok-ai-chat-site.netlify.app/sitemap.xml): Standard XML sitemap
+
+## Key Facts
+- **Product type:** Chrome extension (Manifest V3), side panel AI chat
+- **Price:** Free, open source (MIT License)
+- **Providers:** OpenAI (GPT-5.5, GPT-5.4, GPT-5.4 mini), Anthropic (Claude Fable 5, Claude Opus 4.8, Claude Sonnet 4.6), Google Gemini (Gemini 3.5 Flash, Gemini 3.1 Pro, Gemini 2.5 Pro), Ollama (local), LM Studio (local), Custom API (any OpenAI-compatible endpoint)
+- **Privacy:** No analytics, no telemetry, no tracking. API keys stored locally via chrome.storage.local. Messages sent directly from browser to AI provider — no middleman.
+- **Features:** Streaming responses, screenshot capture for vision models, page context injection, right-click "Send to AI Chat", conversation management with search/edit/regenerate/export, 5 themes (dark, light, midnight, forest, sunset), DuckDuckGo web search toggle, file attachments (images + text)
+- **Author:** alvescrafter
+- **Version:** 1.0
+- **Date published:** 2024-01-01
+- **Date modified:** 2026-06-19
+
+## Optional
+- [Brand identity](https://byok-ai-chat-site.netlify.app/brand.txt): Canonical brand name and tone
+- [AI permissions](https://byok-ai-chat-site.netlify.app/ai.txt): AI training, indexing, and citation permissions
+- [Agent instructions](https://byok-ai-chat-site.netlify.app/AGENTS.md): Guide for coding agents working on this codebase

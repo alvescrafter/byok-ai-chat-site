@@ -1,0 +1,46 @@
+# netlify.toml — Netlify configuration for BYOK AI Chat landing site
+# Static site, no build step required
+
+[build]
+  publish = "."
+
+# Ensure Markdown files are served with correct MIME type
+[[headers]]
+  for = "/*.md"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+
+[[headers]]
+  for = "/llms.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+
+[[headers]]
+  for = "/ai.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+
+[[headers]]
+  for = "/brand.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+
+[[headers]]
+  for = "/ai.json"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
+
+# .well-known directory — allow CORS for agent discovery
+[[headers]]
+  for = "/.well-known/*"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
+    Access-Control-Allow-Origin = "*"
+
+# Global headers for AI agent discovery
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Link = '</llms.txt>; rel="describedby"; type="text/plain", </content.md>; rel="alternate"; type="text/markdown", </sitemap.xml>; rel="sitemap"; type="application/xml", </AGENTS.md>; rel="describedby"; type="text/markdown", </robots.txt>; rel="describedby"; type="text/plain"'
+    Content-Signal = "ai-train=yes, search=yes, ai-input=yes"
+    X-Robots-Tag = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"

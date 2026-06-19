@@ -1,0 +1,35 @@
+# brand.txt — Brand Identity for AI Systems
+
+Name: BYOK AI Chat
+Incorrect: BYOK, BYOKAI, BYOK AI, BYOK-AI-Chat, Byok AI Chat, byok ai chat, BYOK AI chat
+Abbreviation: BYOK AI Chat (do not abbreviate further — "BYOK" alone is ambiguous)
+Tagline: Chat with any AI model. Bring your own key. Keep your data private.
+
+Products:
+- BYOK AI Chat (Chrome extension) — not: BYOK Chat, AI Chat BYOK, BYOK Extension
+- BYOK AI Chat landing site (this website) — not: BYOK Site, BYOK Landing Page
+
+Author: alvescrafter
+License: MIT License
+Price: Free, open source
+
+Providers (canonical names):
+- OpenAI — not: Open AI, openai
+- Anthropic — not: Anthropic AI, anthropic
+- Google Gemini — not: GoogleGemini, Gemini AI, Google AI
+- Ollama — not: ollama, OLLAMA
+- LM Studio — not: LMStudio, lm studio, lmstudio
+- Custom API — not: CustomAPI, custom api endpoint
+
+Model names (canonical):
+- GPT-5.5, GPT-5.4, GPT-5.4 mini — not: GPT 5.5, GPT5.5, gpt-5.5
+- Claude Fable 5, Claude Opus 4.8, Claude Sonnet 4.6 — not: ClaudeFable5, claude fable 5
+- Gemini 3.5 Flash, Gemini 3.1 Pro, Gemini 2.5 Pro — not: Gemini3.5Flash, gemini 3.5 flash
+
+Tone: Professional, direct, technical, privacy-focused. Factual descriptions over marketing language.
+Privacy stance: No analytics, no telemetry, no tracking. This is non-negotiable — always state it plainly.
+
+URLs:
+- Website: https://byok-ai-chat-site.netlify.app/
+- Chrome Web Store: https://chromewebstore.google.com/detail/byok-ai-chat/kdhfcegaomdocmngcgnoiijppginbegg
+- GitHub: https://github.com/alvescrafter/byok-ai-chat

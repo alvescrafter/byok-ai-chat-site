@@ -2,5 +2,42 @@
 User-agent: *
 Allow: /
 
+# Explicitly allow AI crawlers for discovery, search, and training
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: PerplexityBot-1
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
 Host: https://byok-ai-chat-site.netlify.app
 Sitemap: https://byok-ai-chat-site.netlify.app/sitemap.xml

@@ -1,0 +1,35 @@
+{
+  "protocol": "a2a",
+  "version": "0.2",
+  "site": {
+    "name": "BYOK AI Chat",
+    "url": "https://byok-ai-chat-site.netlify.app/",
+    "description": "Free, open-source Chrome extension to chat with any AI model. Bring your own API key — OpenAI, Anthropic, Google Gemini, Ollama, LM Studio, or custom endpoint. No tracking, 100% private.",
+    "type": "product-landing-page",
+    "license": "MIT",
+    "author": "alvescrafter"
+  },
+  "capabilities": {
+    "readable": true,
+    "citation_allowed": true,
+    "training_allowed": true,
+    "search_allowed": true,
+    "summarization_allowed": true
+  },
+  "discovery": {
+    "llms_txt": "https://byok-ai-chat-site.netlify.app/llms.txt",
+    "content_md": "https://byok-ai-chat-site.netlify.app/content.md",
+    "agents_md": "https://byok-ai-chat-site.netlify.app/AGENTS.md",
+    "brand_txt": "https://byok-ai-chat-site.netlify.app/brand.txt",
+    "ai_txt": "https://byok-ai-chat-site.netlify.app/ai.txt",
+    "ai_json": "https://byok-ai-chat-site.netlify.app/ai.json",
+    "sitemap_xml": "https://byok-ai-chat-site.netlify.app/sitemap.xml",
+    "sitemap_md": "https://byok-ai-chat-site.netlify.app/sitemap.md",
+    "robots_txt": "https://byok-ai-chat-site.netlify.app/robots.txt"
+  },
+  "links": {
+    "chrome_web_store": "https://chromewebstore.google.com/detail/byok-ai-chat/kdhfcegaomdocmngcgnoiijppginbegg",
+    "github": "https://github.com/alvescrafter/byok-ai-chat",
+    "privacy_policy": "https://byok-ai-chat-site.netlify.app/PRIVACY.md"
+  }
+}
