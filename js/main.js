@@ -65,10 +65,10 @@
         function updateNav() {
             const scrollY = window.scrollY;
             if (scrollY > 50) {
-                nav.style.background = 'rgba(10, 14, 26, 0.95)';
-                nav.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.3)';
+                nav.style.background = 'rgba(244, 249, 255, 0.95)';
+                nav.style.boxShadow = '0 2px 10px rgba(15, 33, 56, 0.08)';
             } else {
-                nav.style.background = 'rgba(10, 14, 26, 0.85)';
+                nav.style.background = 'rgba(255, 255, 255, 0.7)';
                 nav.style.boxShadow = 'none';
             }
             lastScroll = scrollY;
