@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Primary Meta Tags -->
-    <title>BYOK AI Chat — Bring Your Own Key AI Chat for Chrome</title>
-    <meta name="description" content="Chat with any AI model directly from Chrome's side panel. Bring your own API key — OpenAI, Anthropic, Google, Ollama, LM Studio, or any custom endpoint. Private, fast, no tracking.">
-    <meta name="keywords" content="AI chat, Chrome extension, BYOK, bring your own key, OpenAI, ChatGPT, Claude, Anthropic, Google Gemini, Ollama, LM Studio, AI assistant, side panel, streaming chat, private AI, local AI, custom API">
+    <title>BYOK AI Chat — Free Private AI Chat for Chrome | Bring Your Own API Key</title>
+    <meta name="description" content="Free Chrome extension to chat with GPT-5.5, Claude Fable 5, Gemini 3.5 Flash & more. Bring your own API key — OpenAI, Anthropic, Google, Ollama, LM Studio. No tracking, 100% private.">
+    <meta name="keywords" content="AI chat, Chrome extension, BYOK, bring your own key, OpenAI, GPT-5.5, Claude, Anthropic, Google Gemini, Ollama, LM Studio, AI assistant, side panel, streaming chat, private AI, local AI, custom API, free AI chat, privacy-focused AI">
     <meta name="author" content="alvescrafter">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="canonical" href="https://byok-ai-chat-site.netlify.app/">
 
     <!-- Theme & Favicon -->
@@ -22,23 +23,31 @@
     <link rel="icon" type="image/png" sizes="128x128" href="images/icon128.png">
     <link rel="apple-touch-icon" sizes="128x128" href="images/icon128.png">
 
+    <!-- Performance: Preconnect to external domains -->
+    <link rel="preconnect" href="https://chromewebstore.google.com">
+    <link rel="dns-prefetch" href="https://chromewebstore.google.com">
+    <link rel="preconnect" href="https://github.com">
+    <link rel="dns-prefetch" href="https://github.com">
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://byok-ai-chat-site.netlify.app/">
     <meta property="og:title" content="BYOK AI Chat — Bring Your Own Key AI Chat for Chrome">
     <meta property="og:description" content="Chat with any AI model directly from Chrome's side panel. Bring your own API key — OpenAI, Anthropic, Google, Ollama, LM Studio, or any custom endpoint. Private, fast, no tracking.">
-    <meta property="og:image" content="https://byok-ai-chat-site.netlify.app/images/icon128.png">
-    <meta property="og:image:width" content="128">
-    <meta property="og:image:height" content="128">
+    <meta property="og:image" content="https://byok-ai-chat-site.netlify.app/images/screenshot-2026-06-19.png">
+    <meta property="og:image:alt" content="BYOK AI Chat extension screenshot showing chat interface">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="BYOK AI Chat">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://byok-ai-chat-site.netlify.app/">
-    <meta name="twitter:title" content="BYOK AI Chat — Bring Your Own Key AI Chat for Chrome">
-    <meta name="twitter:description" content="Chat with any AI model directly from Chrome's side panel. Bring your own API key — OpenAI, Anthropic, Google, Ollama, LM Studio, or any custom endpoint. Private, fast, no tracking.">
-    <meta name="twitter:image" content="https://byok-ai-chat-site.netlify.app/images/icon128.png">
+    <meta name="twitter:title" content="BYOK AI Chat — Free Private AI Chat for Chrome">
+    <meta name="twitter:description" content="Chat with GPT-5.5, Claude Fable 5, Gemini 3.5 Flash & more. Bring your own API key. No tracking, 100% private.">
+    <meta name="twitter:image" content="https://byok-ai-chat-site.netlify.app/images/screenshot-2026-06-19.png">
+    <meta name="twitter:image:alt" content="BYOK AI Chat extension screenshot">
 
     <!-- JSON-LD: SoftwareApplication -->
     <script type="application/ld+json">
@@ -46,15 +55,21 @@
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
         "name": "BYOK AI Chat",
-        "description": "Chat with any AI model directly from Chrome's side panel. Bring your own API key — OpenAI, Anthropic, Google, Ollama, LM Studio, or any custom endpoint. Private, fast, no tracking.",
+        "description": "Free Chrome extension to chat with any AI model. Bring your own API key — OpenAI (GPT-5.5), Anthropic (Claude Fable 5), Google Gemini (Gemini 3.5 Flash), Ollama, LM Studio, or any custom endpoint. Private, no tracking.",
         "url": "https://chromewebstore.google.com/detail/byok-ai-chat/kdhfcegaomdocmngcgnoiijppginbegg",
-        "image": "https://byok-ai-chat-site.netlify.app/images/icon128.png",
+        "image": "https://byok-ai-chat-site.netlify.app/images/screenshot-2026-06-19.png",
+        "screenshot": "https://byok-ai-chat-site.netlify.app/images/screenshot-2026-06-19.png",
+        "downloadUrl": "https://chromewebstore.google.com/detail/byok-ai-chat/kdhfcegaomdocmngcgnoiijppginbegg",
         "author": {
             "@type": "Person",
             "name": "alvescrafter"
         },
         "applicationCategory": "BrowserApplication",
         "operatingSystem": "Chrome",
+        "browserRequirements": "Requires Chrome browser",
+        "softwareVersion": "1.0",
+        "datePublished": "2024-01-01",
+        "dateModified": "2026-06-19",
         "offers": {
             "@type": "Offer",
             "price": "0",
@@ -69,7 +84,7 @@
             "worstRating": "1"
         },
         "featureList": [
-            "6 AI Providers — OpenAI, Anthropic, Google, Ollama, LM Studio, Custom API",
+            "6 AI Providers — OpenAI (GPT-5.5), Anthropic (Claude Fable 5), Google Gemini (Gemini 3.5 Flash), Ollama, LM Studio, Custom API",
             "Bring Your Own Key — you provide the API key, you control your data",
             "Streaming responses with real-time token display",
             "Screenshot capture — grab the visible tab and send to vision models",
@@ -78,7 +93,7 @@
             "Conversation management with search, edit, regenerate, and export",
             "Dark, light, midnight, forest, and sunset themes",
             "No analytics, no telemetry, no tracking",
-            "Open source"
+            "Open source under MIT License"
         ]
     }
     </script>
@@ -157,6 +172,32 @@
     }
     </script>
 
+    <!-- JSON-LD: WebApplication -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "BYOK AI Chat",
+        "url": "https://byok-ai-chat-site.netlify.app/",
+        "applicationCategory": "BrowserApplication",
+        "operatingSystem": "Chrome",
+        "browserRequirements": "Requires Chrome browser",
+        "description": "Free Chrome extension to chat with any AI model. Bring your own API key — OpenAI, Anthropic, Google, Ollama, LM Studio, or custom endpoint.",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "featureList": [
+            "6 AI providers: OpenAI, Anthropic, Google Gemini, Ollama, LM Studio, Custom API",
+            "Bring your own API key — keys never leave your device",
+            "Streaming responses",
+            "Screenshot capture and page context",
+            "No tracking, no analytics, open source"
+        ]
+    }
+    </script>
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -213,8 +254,8 @@
                         <span class="badge">✓ Streaming Responses</span>
                     </div>
                 </div>
-                <div class="hero-visual" aria-hidden="true">
-                    <img src="images/screenshot-2026-06-19.png" alt="BYOK AI Chat screenshot" class="hero-screenshot">
+                <div class="hero-visual">
+                    <img src="images/screenshot-2026-06-19.png" alt="BYOK AI Chat Chrome extension showing AI chat interface with streaming responses" class="hero-screenshot" width="520" height="350" fetchpriority="high">
                 </div>
             </div>
         </section>
@@ -511,6 +552,13 @@
                 </div>
             </div>
         </section>
+
+    <!-- SEO: Additional context for search engines -->
+    <section aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden">
+        <h2>BYOK AI Chat — Free Private AI Chat Extension for Chrome</h2>
+        <p>BYOK AI Chat is a free, open-source Chrome extension that lets you chat with any AI model from Chrome's side panel. Bring your own API key (BYOK) for OpenAI GPT-5.5, Anthropic Claude Fable 5, Google Gemini 3.5 Flash, or connect to local AI models via Ollama and LM Studio. No analytics, no telemetry, no tracking — your API keys and conversations stay on your device.</p>
+        <p>Key features include streaming responses, screenshot capture for vision models, page context injection, right-click "Send to AI Chat", conversation management with search and export, 5 themes, and support for any OpenAI-compatible custom API endpoint like vLLM, Together AI, Groq, and OpenRouter.</p>
+    </section>
     </main>
 
     <!-- Footer -->
@@ -519,7 +567,7 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="/" class="footer-logo" aria-label="BYOK AI Chat home">
-                        <img src="images/icon.svg" alt="BYOK AI Chat logo" width="24" height="24">
+                        <img src="images/icon.svg" alt="BYOK AI Chat logo" width="24" height="24" loading="lazy">
                         <span>BYOK AI Chat</span>
                     </a>
                     <p>Chat with any AI model directly from Chrome's side panel. Bring your own key. Keep your data private.</p>
